@@ -20,6 +20,6 @@ public class AppTest
     public void testAppMessage()
     {
         App app = new App();
-        assertEquals("Hello World from Jenkins!!", app.getMessage());
+        assertEquals("Hello World, the Miami Heat is going to win the NBA finals!!", app.getMessage());
     }
 }
